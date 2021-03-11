@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Web Page !</title>
+		<style>
+			input[type=text]{
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<div>
+				<input type="text" name="Name" placeholder="name">
+				<input type="password" name="Password" placeholder="password"
+				>
+				<input type="number" name="age">Age
+			</div>
+			<div>
+				<input type="radio" name="color" value="Red">Red
+				<input type="radio" name="color" value="Green">Green
+				<input type="radio" name="color" value="Yellow">Yellow
+			</div>
+			<div>
+				<input name="country" list="countries" placeholder="country">
+				<datalist id="country">
+					<option value="Bangladesh">
+					<option value="Germany">
+					<option value="France">
+				</datalist>
+			</div>
+		</form>
+
+	</body>
+</html>
